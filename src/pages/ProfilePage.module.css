@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.backBtn{
+    border: 1px solid;
+    text-decoration: navajowhite;
+    color: #000;
+    background: #cfe2f3;
+    padding: 0px 16px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+.ProfilePageContect{
+    margin-top: 20px;
+}
+.TimeShow{
+    background: #0d1e25;
+    color: #8dadba;
+    padding: 15px 42px;
+    font-size: 18px;
+}
+.TimeShowBtn{
+    background: #b6d7a8;
+  color: #000;
+  padding: 11px 49px;
+  font-size: 18px;
+  border: transparent;
+}
+
+.ProfileTittle{
+    text-align: center;
+  margin-top: 20px;
+}
+
+
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .detailsContainer {
+display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid;
+  padding: 19px 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  }
+  
+  .leftDetails,
+  .rightDetails {
+    flex: 1;
+  }
+  
+  
+  .userDetail {
+    margin-bottom: 10px;
+  }
+  
+  
+  .leftDetails .userDetail {
+    text-align: left;
+  }
+  
+  .rightDetails .userDetail {
+    text-align: right;
+  }
+  .username{
+    border-right: 1px solid;
+  padding-right: 10px;
+  }
+
+
+
+.postsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.post {
+  flex: 0 0 calc(33.33% - 20px); 
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+  
+  
+
+
+@media only screen and (max-width: 768px) {
+    .TimeShow{
+
+        padding: 13px 5px;
+        font-size: 15px;
+    }
+    .TimeShowBtn{
+      padding: 11px 19px;
+      font-size: 15px;
+    }
+    .detailsContainer {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .leftDetails,
+      .rightDetails {
+        width: 100%;
+      }
+    
+      .username {
+        border-right: none;
+        padding-right: 0;
+        margin-bottom: 10px;
+      }
+      .post {
+        flex: 0 0 calc(100% - 20px); 
+      }
+  }

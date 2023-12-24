@@ -1,0 +1,37 @@
+/* DirectoryPage.module.css */
+
+/* .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  } */
+  
+  .links {
+    list-style: none;
+  color: #3d4348;
+  text-decoration: none;
+  font-size: 22px;
+  background: #cfe2f3;
+  padding: 14px;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  }
+  
+  .links:hover {
+    color: #000;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 20px 0px;
+  }
+  
+  .headerTittle {
+    margin: 40px 0px 30px 0px;
+    text-align: center;
+  }
+  
